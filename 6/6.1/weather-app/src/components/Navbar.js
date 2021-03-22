@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Time from './Time'
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,11 +10,16 @@ import {
 class Navbar extends Component {
   render() {
     return (
-      <div className="nav">
-        <Link to="/">Home</Link> |
-        <Link to="daily">Daily</Link> |
-        <Link to="weekly">Weekly</Link>
+      <div>
+        <div className="nav">
+          <Link to="/">Home</Link> |
+          <Link to="daily">Daily</Link> |
+          <Link to="weekly">Weekly</Link>
+        </div>
+        
+        <Time />
       </div>
+
     );
   }
 }
