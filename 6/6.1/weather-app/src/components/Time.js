@@ -1,5 +1,4 @@
 import React from 'react'
-import Timec from '../css/Timec.css'
 
 function Time() {
 

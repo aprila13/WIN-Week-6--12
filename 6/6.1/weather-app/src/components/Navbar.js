@@ -16,6 +16,7 @@ class Navbar extends Component {
           <Link to="/">Home</Link> 
           <Link to="daily">Daily</Link> 
           <Link to="weekly">Weekly</Link>
+          <Link to="wireframe">Wireframe</Link>
         </span>
         
         <Time />
