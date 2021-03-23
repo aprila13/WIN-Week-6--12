@@ -1,0 +1,38 @@
+/* .background { */
+  /* height: 50px; */
+  /* background: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg")  center cover; */
+  /* opacity: 0.33; */
+  /* font-size: larger; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  /* background-size: cover; */
+  /* ; */
+  /* padding-bottom: 20%; */
+  /* text-align: center; */
+/* } */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 90vw;
+}
+
+td {
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.center table{
+  margin-left: auto;
+  margin-right: auto;
+}

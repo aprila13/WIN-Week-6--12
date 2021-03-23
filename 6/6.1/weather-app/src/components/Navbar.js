@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Time from './Time'
+import Navb from '../css/Navb.css'
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,12 +11,12 @@ import {
 class Navbar extends Component {
   render() {
     return (
-      <div>
-        <div className="nav">
-          <Link to="/">Home</Link> |
-          <Link to="daily">Daily</Link> |
+      <div className="nav">
+        <span>
+          <Link to="/">Home</Link> 
+          <Link to="daily">Daily</Link> 
           <Link to="weekly">Weekly</Link>
-        </div>
+        </span>
         
         <Time />
       </div>

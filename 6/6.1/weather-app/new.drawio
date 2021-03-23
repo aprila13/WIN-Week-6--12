@@ -1,0 +1,37 @@
+<mxfile>
+    <diagram id="B02jcqE2dlhzdqF7ksvG" name="Page-1">
+        <mxGraphModel dx="166" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
+                    <mxGeometry x="-5" y="200" width="410" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-3" value="Navigation Bar&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Time and Date&lt;/span&gt;&lt;/li&gt;&lt;li&gt;View Selection&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="160" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-4" value=":The Selected City" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="260" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="390" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-6" value="&lt;ul&gt;&lt;li&gt;Temperature&lt;/li&gt;&lt;li&gt;Precipitation&lt;/li&gt;&lt;li&gt;Humidity&lt;/li&gt;&lt;li&gt;Wind&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="165" width="350" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-7" value="&lt;ul&gt;&lt;li&gt;Days&lt;/li&gt;&lt;li&gt;Hi/Lo&lt;/li&gt;&lt;li&gt;Compare Cities&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
+                    <mxGeometry x="453.75" y="596.25" width="362.5" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="160" width="155" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-9" value="Daily View" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="zENSUeY-oeX-_B6aQFiK-10" value="Weekly View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

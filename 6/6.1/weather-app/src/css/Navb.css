@@ -1,0 +1,20 @@
+.nav {
+  background: #49B7E8;
+  padding: 2%;
+  color: white;
+}
+
+a {
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+a:hover {
+  color: gray;
+}
+
+body {
+  margin-top: 0;
+
+}

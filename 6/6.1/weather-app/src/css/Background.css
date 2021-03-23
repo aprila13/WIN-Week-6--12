@@ -1,0 +1,11 @@
+.background {
+  background: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg") no-repeat center fixed;
+  font-size: larger;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ;
+  padding-bottom: 20%;
+  text-align: center;
+}
