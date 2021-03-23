@@ -1,0 +1,62 @@
+.Day {
+  background: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg") no-repeat center fixed;
+  font-size: larger;
+  width: 95%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20%;
+  text-align: center;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+}
+
+h3,
+p {
+  font-size: 25;
+  color: rgb(57, 58, 51);
+}
+
+.cold h3 {
+  font-size: 25;
+  color: rgb(19, 22, 4);
+}
+
+.cold p {
+  color: rgb(48, 219, 71);
+  font-size: 20px;
+}
+
+.Dry p {
+  color: rgb(48, 219, 71);
+  font-size: 20px;
+}
+
+.Dry h3 {
+  color: rgb(219, 48, 196);
+  font-size: 20px;
+}
+
+.Rainy p {
+  color: rgb(48, 219, 71);
+  font-size: 20px;
+}
+
+.Rainy h3 {
+  color: rgb(219, 48, 196);
+  font-size: 20px;
+}
+
+.Sunny p {
+  color: rgb(48, 88, 219);
+  font-size: 20px;
+}
+
+.Sunny h3 {
+  color: rgb(12, 13, 102);
+  font-size: 20px;
+}
