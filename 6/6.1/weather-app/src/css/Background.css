@@ -6,7 +6,6 @@
   -o-background-size: cover;
   background-size: cover;
   ;
-  padding-bottom: 20%;
   text-align: center;
 }
 
@@ -23,7 +22,6 @@
 /* To change font color in footer */
 .foot p {
   color: white;
-  padding-top: 50px;
 }
 
 /* For spacing between border and button */

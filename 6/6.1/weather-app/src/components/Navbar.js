@@ -13,12 +13,12 @@ class Navbar extends Component {
     return (
       <div className="nav">
         <span>
-          <Link to="/">Home</Link> 
-          <Link to="daily">Daily</Link> 
-          <Link to="weekly">Weekly</Link>
+          <Link to="/">Home</Link>
           <Link to="wireframe">Wireframe</Link>
+          <Link to="daily">Daily</Link>
+          <Link to="weekly">Weekly</Link>
         </span>
-        
+
         <Time />
       </div>
 

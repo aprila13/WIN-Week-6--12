@@ -18,10 +18,11 @@ class Routes extends Component {
       <Router>
         <div>
           <Navbar />
+          <Route name="Wireframe" path="/wireframe" component={Wireframe} />
           <Route name="Home" exact path="/" component={Home} />
           <Route name="Daily" path="/daily" component={Daily} />
           <Route name="Weekly" path="/weekly" component={Weekly} />
-          <Route name="Wireframe" path="/wireframe" component={Wireframe} />
+          
         </div>
       </Router>
     );

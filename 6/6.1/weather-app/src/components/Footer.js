@@ -15,7 +15,7 @@ function Greeting(props) {
   if (props.text) {
     return (
       <p>
-        Hello from: April, Echu, Eyke Jonathan, and Laura!
+        Hello from: April, Echu, Eyke, Jonathan, and Laura!
       </p>
     );
   }
