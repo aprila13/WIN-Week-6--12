@@ -15,6 +15,7 @@ class Navbar extends Component {
         <span>
           <Link to="/">Home</Link>
           <Link to="wireframe">Wireframe</Link>
+          <Link to="slide">Slideshow</Link>
           <Link to="daily">Daily</Link>
           <Link to="weekly">Weekly</Link>
         </span>
