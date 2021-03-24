@@ -1,62 +1,110 @@
-.Day {
-  background: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg") no-repeat center fixed;
-  font-size: larger;
-  width: 95%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: 20%;
-  text-align: center;
-  text-align: left;
-}
-
-.container {
+.Text {
   display: flex;
-}
-
-h3,
-p {
-  font-size: 25;
-  color: rgb(57, 58, 51);
+  justify-content: center;
+  margin-top: 80px;
 }
 
 .cold h3 {
   font-size: 25;
-  color: rgb(19, 22, 4);
+  color: rgb(155, 13, 190);
 }
 
 .cold p {
-  color: rgb(48, 219, 71);
+  color: rgb(4, 7, 41);
   font-size: 20px;
 }
 
+.cold {
+  margin: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  align-self: flex-start;
+  background: url("../assets/Yakutsk.png");
+  background-repeat: no-repeat;
+}
+
 .Dry p {
-  color: rgb(48, 219, 71);
+  color: rgb(246, 232, 253);
   font-size: 20px;
 }
 
 .Dry h3 {
-  color: rgb(219, 48, 196);
+  color: rgb(228, 228, 20);
   font-size: 20px;
 }
 
+.Dry {
+  margin: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  align-self: flex-start;
+  background: url("../assets/GreatFalls.png");
+  background-repeat: no-repeat;
+}
+
 .Rainy p {
-  color: rgb(48, 219, 71);
+  color: blue;
   font-size: 20px;
 }
 
 .Rainy h3 {
-  color: rgb(219, 48, 196);
+  color: rgb(26, 25, 1);
   font-size: 20px;
 }
 
+.Rainy {
+  margin: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  align-self: flex-start;
+  background: url("../assets/Mecca.png");
+  background-repeat: no-repeat;
+}
+
 .Sunny p {
-  color: rgb(48, 88, 219);
+  color: rgb(243, 242, 233);
   font-size: 20px;
 }
 
 .Sunny h3 {
-  color: rgb(12, 13, 102);
+  color: yellow;
+  font-size: 20px;
+}
+
+.Sunny {
+  margin: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  align-self: flex-start;
+  background: url("../assets/Chile.png");
+  background-repeat: no-repeat;
+}
+
+.Cloudy {
+  margin: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  align-self: flex-start;
+  background: url("../assets/Torshavn.png");
+  background-repeat: no-repeat;
+}
+
+.Cloudy p {
+  color: white;
+  font-size: 20px;
+}
+
+.Cloudy h3 {
+  color: rgb(223, 219, 28);
   font-size: 20px;
 }

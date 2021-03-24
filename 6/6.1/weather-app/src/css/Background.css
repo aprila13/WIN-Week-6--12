@@ -1,4 +1,4 @@
-.background {
+/* .background {
   background: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg") no-repeat center fixed;
   font-size: larger;
   -webkit-background-size: cover;
@@ -7,34 +7,88 @@
   background-size: cover;
   ;
   text-align: center;
-}
+} */
 
 /* Footing */
-.foot {
+/* .foot {
   display: flex;
   border-top: 5px solid white;
   justify-content: space-around;
   position: relative;
   width: 100%;
   font-size: xx-large;
-}
+} */
 
 /* To change font color in footer */
-.foot p {
+/* .foot p {
   color: white;
+} */
+
+/* For spacing between border and button */
+/* .btn {
+  padding-top: 30px;
+} */
+
+/* button {
+  background: #F7EA5E;
+  border: white 3px solid;
+  color: #1F80AA;
+  padding: 10px;
+  font-size: x-large;
+}
+
+button:hover {
+  background-color: #B2B2B2;
+} */
+
+.background {
+  background: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+
+/* Changes the background to blue on all pages and removes the margin from all sides */
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  background: #49B7E8;
+  text-align: center;
+  /* Padding added to display text in Daily.js */
+  padding-bottom: 130px;
+}
+
+/* Footer */
+.foot {
+  border-top: 5px solid white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3%;
+  font-size: medium;
+  background-color: #49B7E8;
+  /* text-align: center; */
+  padding-bottom: 110px;
 }
 
 /* For spacing between border and button */
 .btn {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 button {
   background: #F7EA5E;
   border: white 3px solid;
   color: #1F80AA;
-  padding: 10px;
-  font-size: x-large;
+  padding: 3px;
+  font-size: large;
 }
 
 button:hover {

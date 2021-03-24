@@ -1,4 +1,5 @@
 import WeeklyStyle from '../css/WeeklyStyle.css'
+import Footer from './Footer.js'
 import storm from '../assets/storm.png'
 import snow from '../assets/snow.png'
 import rain from '../assets/rain.png'
@@ -69,7 +70,9 @@ return (
         <td>High 27&#8451; | Low 8&#8451;<img src={rain}/></td>
       </tr>
     </table>
- 
+ <div className="foot">
+    <Footer />
+    </div>
   </div>
   
 )
