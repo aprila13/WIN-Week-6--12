@@ -12,7 +12,6 @@ function Time() {
       {month}-{date}-{year}
     </span>
   )
-
 }
 
 

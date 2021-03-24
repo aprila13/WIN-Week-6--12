@@ -19,7 +19,6 @@ class Navbar extends Component {
           <Link to="daily">Daily</Link>
           <Link to="weekly">Weekly</Link>
         </span>
-
         <Time />
       </div>
 
