@@ -1,0 +1,22 @@
+.centered{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+body{
+    background-image: url('openbook.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+#display { 
+    visibility: hidden;
+} 
+
