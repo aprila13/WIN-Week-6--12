@@ -28,8 +28,9 @@ let requestOptions = {
 // //function to fetch data
 function findBook(event) {
   event.preventDefault();
-  let bookTitle = search.value;
+  let bookTitle = searchBar.value;
   console.log(bookTitle)
+
   fetch(`http://openlibrary.org/search.json?title=${bookTitle}`, requestOptions)
     .then(response => response.json())
     .then(result => {
