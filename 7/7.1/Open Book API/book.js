@@ -11,7 +11,7 @@ let searchBar = document.querySelector('.search'),
   titleText3 = document.querySelector('.title3'),
   imageBox3 = document.querySelector('.image3'),
   display = document.getElementById('display');
-console.log(display)
+
 // //submit button is clicked and the function runs
 submitBtn.addEventListener('click', findBook)
 
@@ -48,7 +48,7 @@ function findBook(event) {
       imageBox3.src = `http://covers.openlibrary.org/b/id/${result.docs[2].cover_i}-L.jpg`;
 
       display.style.visibility = 'visible';
-      
+
       imageBox.style.width = '254px';
       imageBox.style.height = '393px';
       imageBox2.style.width = '254px';
