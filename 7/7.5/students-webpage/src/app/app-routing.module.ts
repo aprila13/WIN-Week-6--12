@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'homepage', component: HomepageComponent },
   { path: '', redirectTo: '/homepage', pathMatch: 'full' }
 ];
-
+// ./feature.component.html
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

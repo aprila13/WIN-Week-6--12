@@ -2,5 +2,6 @@
 export interface Student {
   id: number;
   name: string;
-  major: string;
+  company: string;
+  position: string;
 }
