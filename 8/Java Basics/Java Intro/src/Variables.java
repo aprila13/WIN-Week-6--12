@@ -50,6 +50,10 @@ public class Variables {
   }
 };
 
+//Data Types are divided into 2 groups:
+//1. Primitive Data Types - byte, short, int, long, float, double, boolean, char
+//2. Non-primitive Data Types - String, Array, Classes
+
 
 
 
