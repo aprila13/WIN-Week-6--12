@@ -3,9 +3,9 @@ package com.tts;
 public class Person {
 
 //  Instance Variables or fields or members or properties or class variables
-    String name;
-    int age;
-    String location;
+    private String name;
+    private int age;
+    private String location;
 
 //Constructor. It will set the value of the instance variables
 //With all parameters
@@ -40,6 +40,15 @@ public class Person {
         return birthYear;
     }
 
+
+//========Getter + Setter========
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
 
 //==========Declaring Methods==========
