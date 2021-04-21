@@ -6,6 +6,11 @@ public abstract class Instrument {
         return value;
     }
 
+
+    // this method is abstract
+    // meaning that wherever its inherited
+    // it needs a unique implementation
+    // think of abstract methods as a contract
     public abstract void createSound();
 
 }
