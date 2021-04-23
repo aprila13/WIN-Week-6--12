@@ -52,7 +52,11 @@ public class TicTacToeClass
 
     public boolean isCat()
     {
-        return false;
+        if (turns == 9 && !isWinner('X') && !isWinner('O')) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public boolean isValid( int r, int c )
