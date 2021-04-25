@@ -19,6 +19,7 @@ public class Main {
         System.out.println(apples.getName()); //Only a getter will print without toString
         System.out.println(apples);
         System.out.println(apples.toString());
+        System.out.println(apples.isSold());
     }
 
 }

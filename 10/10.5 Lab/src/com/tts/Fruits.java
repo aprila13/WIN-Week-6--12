@@ -48,6 +48,11 @@ public class Fruits {
         this.price = price;
     }
 
+    //Method
+    public boolean isSold() {
+        return true;
+    }
+
     @Override
     public String toString() {
         return "My Favorite Fruits are " +
