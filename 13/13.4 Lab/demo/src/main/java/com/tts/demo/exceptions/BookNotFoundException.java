@@ -1,4 +1,4 @@
-package com.tts.demo.controller;
+package com.tts.demo.exceptions;
 
 public class BookNotFoundException extends RuntimeException {
     public BookNotFoundException() {

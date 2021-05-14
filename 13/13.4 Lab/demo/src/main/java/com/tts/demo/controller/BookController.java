@@ -1,8 +1,11 @@
 package com.tts.demo.controller;
 
+import com.tts.demo.exceptions.BookIdMismatchException;
+import com.tts.demo.exceptions.BookNotFoundException;
 import com.tts.demo.model.Book;
 import com.tts.demo.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +15,8 @@ import java.util.List;
 @RequestMapping("/api/books")
 public class BookController {
 
+    //Autowired is for dependency injection
+    //We are allowing bookController to pick up a candidate for this field
     @Autowired
     private BookRepository bookRepository;
 
@@ -20,8 +25,8 @@ public class BookController {
         return bookRepository.findAll();
     }
 
-    @GetMapping("/title/{bookTitle}")
-    public List findByTitle(@PathVariable String bookTitle) {
+    @GetMapping("/title/{bookTitle}")  //{bookTitle} is a path variable, user defined routes/url
+    public List<Book> findByTitle(@PathVariable String bookTitle) {
         return bookRepository.findByTitle(bookTitle);
     }
 
