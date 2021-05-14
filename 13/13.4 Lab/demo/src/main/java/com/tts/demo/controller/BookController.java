@@ -1,6 +1,6 @@
 package com.tts.demo.controller;
 
-import com.tts.demo.entity.Book;
+import com.tts.demo.model.Book;
 import com.tts.demo.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
