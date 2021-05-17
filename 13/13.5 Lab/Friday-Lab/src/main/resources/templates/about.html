@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<!-- xmlns:th="http://www.thymeleaf.org" is used to stop our IDE from throwing errors when we
+ utilize the th namespace. This is how we declare that namespace -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>About Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <style>
+    body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    }
+
+    div {
+    text-align: center;
+    }
+
+    h1 {
+    color: #ffe6ff;
+    }
+
+    p {
+    color: red;
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+        <!--The text below will be replaced by Thymeleaf-->
+        <h1 th:text="'Hello, my name is ' + ${name} + '!'" />
+
+
+    </div>
+
+    <div>
+
+        <p th:text="'I am a ' + ${profession} + '.'" />
+
+        <p th:text="'I am currently learning ' + ${technologies} + '.'" />
+    </div>
+
+</body>
+</html>

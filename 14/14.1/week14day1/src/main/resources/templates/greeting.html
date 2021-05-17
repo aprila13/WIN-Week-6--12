@@ -14,6 +14,32 @@
 </head>
 <body>
 <!--The text below will be replaced by Thymeleaf-->
+<!--${name} This is a variable expression-->
 <p th:text="'Hello, ' + ${name} + '!'" />
+
+<!--#{msg.welcome} The is a message expression-->
+<!--The message goes in app.properties-->
+<p th:text="#{msg.welcome}">Welcome Everyone</p>
+
+<!--Below behaves like an enhanced for loop-->
+<ul th:each="book : ${books}">
+    <li th:text="${book.title}">Book Title</li>
+    <li th:text="${book.author}">Author's Name</li>
+</ul>
+
+<form th:action="@{/createOrder}" />
+
+<input type="button" th:value="#{form.submit}" />
+
+<!--The creates a link at localhost:8080/greeting-->
+<!--When link is clicked, it redirects to localhost:8080/endpoint-->
+<a th:href="@{/endpoint}">link</a>
+
+<!--Standard Expressions-->
+<!--${...} : Variable expressions.-->
+<!--*{...} : Selection expressions.-->
+<!--#{...} : Message (i18n) expressions.-->
+<!--@{...} : Link (URL) expressions.-->
+<!--~{...} : Fragment expressions.-->
 </body>
 </html>

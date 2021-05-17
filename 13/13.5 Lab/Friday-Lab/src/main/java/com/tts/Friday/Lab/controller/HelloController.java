@@ -35,4 +35,14 @@ public class HelloController {
         return "contact";
     }
 
+    @GetMapping("/about")
+    public String about(@RequestParam(name="name",
+            required = false,
+            defaultValue="April") String name, Model model) {
+        model.addAttribute("profession", "DevOps Engineer");
+        model.addAttribute("name", name);
+        model.addAttribute("technologies", "Java & Spring Boot");
+        return "about";
+    }
+
 }
