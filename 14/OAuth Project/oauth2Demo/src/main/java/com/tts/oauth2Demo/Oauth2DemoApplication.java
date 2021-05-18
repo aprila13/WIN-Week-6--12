@@ -8,6 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.security.web.authentication.HttpStatusEntryPoint;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,7 +27,11 @@ public class Oauth2DemoApplication extends WebSecurityConfigurerAdapter {
 						.anyRequest().authenticated())
 				.exceptionHandling(e -> e
 						.authenticationEntryPoint(new HttpStatusEntryPoint(HttpStatus.UNAUTHORIZED)))
-				.oauth2Login().defaultSuccessUrl("/", true);
+				.oauth2Login().defaultSuccessUrl("/", true)
+				.and()
+				.logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+				.logoutSuccessUrl("/").deleteCookies("JSESSIONID")
+				.invalidateHttpSession(true);;
 	}
 
 	@GetMapping("/user")
