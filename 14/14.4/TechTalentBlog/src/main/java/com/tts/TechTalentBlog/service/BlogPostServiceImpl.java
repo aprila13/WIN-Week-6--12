@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BlogPostServiceImpl implements BlogPostService{
+public class BlogPostServiceImpl implements BlogPostService {
 
     @Autowired
     BlogPostRepository blogPostRepository;
@@ -20,4 +20,10 @@ public class BlogPostServiceImpl implements BlogPostService{
     public Iterable<BlogPost> getAllBlogPosts() {
         return blogPostRepository.findAll();
     }
+
+    @Override
+    public void deletePostById(Long id) {
+        blogPostRepository.deleteById(id);
+    }
+
 }
