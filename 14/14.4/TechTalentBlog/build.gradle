@@ -25,6 +25,9 @@ dependencies {
 	implementation group: 'org.webjars', name: 'bootstrap-datepicker', version: '1.7.1'
 	// https://mvnrepository.com/artifact/org.webjars/jquery
 	implementation group: 'org.webjars', name: 'jquery', version: '1.9.1'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '2.4.5'
+	// https://mvnrepository.com/artifact/org.webjars/bootstrap
+
 }
 
 test {

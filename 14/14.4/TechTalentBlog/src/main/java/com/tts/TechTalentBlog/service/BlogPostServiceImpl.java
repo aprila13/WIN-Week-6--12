@@ -15,4 +15,9 @@ public class BlogPostServiceImpl implements BlogPostService{
     public BlogPost addNewBlogPost(BlogPost blogPost) {
         return blogPostRepository.save(blogPost);
     }
+
+    @Override
+    public Iterable<BlogPost> getAllBlogPosts() {
+        return blogPostRepository.findAll();
+    }
 }

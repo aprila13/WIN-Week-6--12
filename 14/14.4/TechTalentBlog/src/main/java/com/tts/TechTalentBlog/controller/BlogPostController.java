@@ -15,7 +15,8 @@ public class BlogPostController {
     BlogPostService blogPostService;
 
     @GetMapping("/")
-    public String index(BlogPost blogPost) {
+    public String index(BlogPost blogPost, Model model) {
+        model.addAttribute("posts", blogPostService.getAllBlogPosts());
         //This return value is a reference to a template
         //Will return blogpost/index.html
         //HTML file is in resources/templates.blogpost/index.html
