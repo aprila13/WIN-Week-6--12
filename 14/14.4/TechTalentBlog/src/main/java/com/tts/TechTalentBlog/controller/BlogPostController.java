@@ -44,4 +44,6 @@ public class BlogPostController {
         blogPostService.deletePostById(id);
         return "redirect:/";
     }
+
+
 }
