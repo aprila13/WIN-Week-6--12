@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 
 <head>
-    <title>Log in</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="/custom.css">
@@ -13,6 +13,7 @@
 
 <body>
 <div class="container">
+    <div th:replace="fragments/navbar"></div>
     <h2>Sign up</h2>
     <form th:action="@{/signup}" th:object="${user}" method="post" autocomplete="off" >
         <div class="form-group">
@@ -41,4 +42,5 @@
     </form>
 </div>
 </body>
+
 </html>

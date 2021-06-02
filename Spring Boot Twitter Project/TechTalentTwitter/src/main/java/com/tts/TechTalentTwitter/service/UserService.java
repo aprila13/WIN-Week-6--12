@@ -1,5 +1,4 @@
 package com.tts.TechTalentTwitter.service;
-
 import com.tts.TechTalentTwitter.model.Role;
 import com.tts.TechTalentTwitter.model.User;
 import com.tts.TechTalentTwitter.repository.RoleRepository;
@@ -29,11 +28,11 @@ public class UserService {
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
     }
 
-    public User findByUsername(String username) {
+    public User findByUserName(String username) {
         return userRepository.findByUsername(username);
     }
 
-    public List<User> findAll(){
+    public List<User> findAll() {
         return (List<User>) userRepository.findAll();
     }
 
@@ -50,9 +49,11 @@ public class UserService {
     }
 
     public User getLoggedInUser() {
-        String loggedInUsername = SecurityContextHolder.
-                getContext().getAuthentication().getName();
+        String loggedInUsername = SecurityContextHolder.getContext()
+                .getAuthentication()
+                .getName();
 
-        return findByUsername(loggedInUsername);
+        return findByUserName(loggedInUsername);
     }
+
 }
